@@ -1,0 +1,1028 @@
+2022-12-03T03:12:57+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-03T03:12:58+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-03T03:12:58+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 33 for the amount of 10
+====End Log====
+
+
+2022-12-03T03:12:58+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 33
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 33
+            [site_url] => http://localhost
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-03T03:13:00+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-03T03:13:00+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-03T03:13:01+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 33 for the amount of 10
+====End Log====
+
+
+2022-12-03T03:13:01+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 33
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 33
+            [site_url] => http://localhost
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-03T03:13:03+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-03T03:13:04+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 33 for the amount of 10
+====End Log====
+
+
+2022-12-03T03:13:04+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 33
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 33
+            [site_url] => http://localhost
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-03T03:13:07+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-03T03:13:08+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 33 for the amount of 10
+====End Log====
+
+
+2022-12-03T03:13:08+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 33
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 33
+            [site_url] => http://localhost
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-03T03:13:12+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-03T03:13:13+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 33 for the amount of 10
+====End Log====
+
+
+2022-12-03T03:13:13+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 33
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 33
+            [site_url] => http://localhost
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-03T03:13:13+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-03T03:13:14+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 33 for the amount of 10
+====End Log====
+
+
+2022-12-03T03:13:14+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 33
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 33
+            [site_url] => http://localhost
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-03T03:13:14+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [code] => amount_too_small
+            [doc_url] => https://stripe.com/docs/error-codes/amount-too-small
+            [message] => Amount must convert to at least 50 JPY. ₫10 converts to approximately ¥0.
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_qzl4hqz66GNBRv?t=1670037194
+            [type] => invalid_request_error
+        )
+
+)
+
+====End Log====
+
+
+2022-12-03T03:14:01+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-12-03T03:14:30+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAmBNGar99af23DMaLw65xC
+====End Log====
+
+
+2022-12-03T03:14:30+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Tuan, Username: admin
+    [name] => Tran Tuan
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-03T03:14:31+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 34 for the amount of 40
+====End Log====
+
+
+2022-12-03T03:14:31+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAmBNGar99af23DMaLw65xC
+    [amount] => 40
+    [currency] => vnd
+    [description] => Demo - Order 34
+    [metadata] => Array
+        (
+            [customer_name] => Tran Tuan
+            [customer_email] => asd@gmail.com
+            [order_id] => 34
+            [site_url] => http://localhost
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-03T03:14:32+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAmBNGar99af23DMaLw65xC
+====End Log====
+
+
+2022-12-03T03:14:33+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Tuan, Username: admin
+    [name] => Tran Tuan
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-03T03:14:33+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 34 for the amount of 40
+====End Log====
+
+
+2022-12-03T03:14:33+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAmBNGar99af23DMaLw65xC
+    [amount] => 40
+    [currency] => vnd
+    [description] => Demo - Order 34
+    [metadata] => Array
+        (
+            [customer_name] => Tran Tuan
+            [customer_email] => asd@gmail.com
+            [order_id] => 34
+            [site_url] => http://localhost
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-03T03:14:36+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAmBNGar99af23DMaLw65xC
+====End Log====
+
+
+2022-12-03T03:14:36+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 34 for the amount of 40
+====End Log====
+
+
+2022-12-03T03:14:36+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAmBNGar99af23DMaLw65xC
+    [amount] => 40
+    [currency] => vnd
+    [description] => Demo - Order 34
+    [metadata] => Array
+        (
+            [customer_name] => Tran Tuan
+            [customer_email] => asd@gmail.com
+            [order_id] => 34
+            [site_url] => http://localhost
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-03T03:14:40+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAmBNGar99af23DMaLw65xC
+====End Log====
+
+
+2022-12-03T03:14:40+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 34 for the amount of 40
+====End Log====
+
+
+2022-12-03T03:14:40+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAmBNGar99af23DMaLw65xC
+    [amount] => 40
+    [currency] => vnd
+    [description] => Demo - Order 34
+    [metadata] => Array
+        (
+            [customer_name] => Tran Tuan
+            [customer_email] => asd@gmail.com
+            [order_id] => 34
+            [site_url] => http://localhost
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-03T03:14:45+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAmBNGar99af23DMaLw65xC
+====End Log====
+
+
+2022-12-03T03:14:45+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 34 for the amount of 40
+====End Log====
+
+
+2022-12-03T03:14:45+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAmBNGar99af23DMaLw65xC
+    [amount] => 40
+    [currency] => vnd
+    [description] => Demo - Order 34
+    [metadata] => Array
+        (
+            [customer_name] => Tran Tuan
+            [customer_email] => asd@gmail.com
+            [order_id] => 34
+            [site_url] => http://localhost
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-03T03:14:45+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAmBNGar99af23DMaLw65xC
+====End Log====
+
+
+2022-12-03T03:14:46+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 34 for the amount of 40
+====End Log====
+
+
+2022-12-03T03:14:46+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAmBNGar99af23DMaLw65xC
+    [amount] => 40
+    [currency] => vnd
+    [description] => Demo - Order 34
+    [metadata] => Array
+        (
+            [customer_name] => Tran Tuan
+            [customer_email] => asd@gmail.com
+            [order_id] => 34
+            [site_url] => http://localhost
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-03T03:14:46+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [code] => amount_too_small
+            [doc_url] => https://stripe.com/docs/error-codes/amount-too-small
+            [message] => Amount must convert to at least 50 JPY. ₫40 converts to approximately ¥0.
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_91H1GO0C8XdTDq?t=1670037286
+            [type] => invalid_request_error
+        )
+
+)
+
+====End Log====
+
+
+2022-12-03T03:22:05+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-12-03T07:01:15+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+account
+====End Log====
+
+
+2022-12-03T08:24:24+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Hai, Username: admin
+    [name] => Tran Hai
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-03T08:24:25+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-03T08:24:25+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 42 for the amount of 100
+====End Log====
+
+
+2022-12-03T08:24:25+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 100
+    [currency] => vnd
+    [description] => Demo - Order 42
+    [metadata] => Array
+        (
+            [customer_name] => Tran Hai
+            [customer_email] => asd@gmail.com
+            [order_id] => 42
+            [site_url] => http://localhost
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-03T08:24:27+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Hai, Username: admin
+    [name] => Tran Hai
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-03T08:24:27+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-03T08:24:28+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 42 for the amount of 100
+====End Log====
+
+
+2022-12-03T08:24:28+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 100
+    [currency] => vnd
+    [description] => Demo - Order 42
+    [metadata] => Array
+        (
+            [customer_name] => Tran Hai
+            [customer_email] => asd@gmail.com
+            [order_id] => 42
+            [site_url] => http://localhost
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-03T08:24:30+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-03T08:24:31+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 42 for the amount of 100
+====End Log====
+
+
+2022-12-03T08:24:31+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 100
+    [currency] => vnd
+    [description] => Demo - Order 42
+    [metadata] => Array
+        (
+            [customer_name] => Tran Hai
+            [customer_email] => asd@gmail.com
+            [order_id] => 42
+            [site_url] => http://localhost
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-03T08:24:34+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-03T08:24:35+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 42 for the amount of 100
+====End Log====
+
+
+2022-12-03T08:24:35+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 100
+    [currency] => vnd
+    [description] => Demo - Order 42
+    [metadata] => Array
+        (
+            [customer_name] => Tran Hai
+            [customer_email] => asd@gmail.com
+            [order_id] => 42
+            [site_url] => http://localhost
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-03T08:24:39+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-03T08:24:40+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 42 for the amount of 100
+====End Log====
+
+
+2022-12-03T08:24:40+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 100
+    [currency] => vnd
+    [description] => Demo - Order 42
+    [metadata] => Array
+        (
+            [customer_name] => Tran Hai
+            [customer_email] => asd@gmail.com
+            [order_id] => 42
+            [site_url] => http://localhost
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-03T08:24:40+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-03T08:24:41+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 42 for the amount of 100
+====End Log====
+
+
+2022-12-03T08:24:41+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 100
+    [currency] => vnd
+    [description] => Demo - Order 42
+    [metadata] => Array
+        (
+            [customer_name] => Tran Hai
+            [customer_email] => asd@gmail.com
+            [order_id] => 42
+            [site_url] => http://localhost
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-03T08:24:41+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [code] => amount_too_small
+            [doc_url] => https://stripe.com/docs/error-codes/amount-too-small
+            [message] => Amount must convert to at least 50 JPY. ₫100 converts to approximately ¥1.
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_7JYp91TTiW7AJq?t=1670055881
+            [type] => invalid_request_error
+        )
+
+)
+
+====End Log====
+
+
+2022-12-03T08:24:53+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-12-03T09:01:20+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+account
+====End Log====
+
+
