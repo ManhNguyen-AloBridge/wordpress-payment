@@ -12,3 +12,21 @@ account
 ====End Log====
 
 
+2022-12-04T09:27:08+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-12-04T09:32:30+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+account
+====End Log====
+
+

@@ -1,0 +1,507 @@
+2022-12-04T10:30:55+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MBFTGGar99af23DQFvytT2d
+====End Log====
+
+
+2022-12-04T10:30:56+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers request: Array
+(
+    [email] => sonyvaioweb@gmail.cocm
+    [description] => Name: Uesr One, Username: uesr.one
+    [name] => Uesr One
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-04T10:30:57+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_Mv5eVsCd8Ni8Np/sources request: Array
+(
+    [source] => src_1MBFTGGar99af23DQFvytT2d
+)
+
+====End Log====
+
+
+2022-12-04T10:30:58+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_Mv5eVsCd8Ni8Np request: Array
+(
+    [email] => sonyvaioweb@gmail.cocm
+    [description] => Name: Uesr One, Username: uesr.one
+    [name] => Uesr One
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-04T10:30:58+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 51 for the amount of 15
+====End Log====
+
+
+2022-12-04T10:30:58+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MBFTGGar99af23DQFvytT2d
+    [amount] => 15
+    [currency] => vnd
+    [description] => Demo - Order 51
+    [metadata] => Array
+        (
+            [customer_name] => Uesr One
+            [customer_email] => sonyvaioweb@gmail.cocm
+            [order_id] => 51
+            [site_url] => http://localhost
+            [save_payment_method] => true
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [setup_future_usage] => off_session
+    [customer] => cus_Mv5eVsCd8Ni8Np
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-04T10:31:00+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MBFTGGar99af23DQFvytT2d
+====End Log====
+
+
+2022-12-04T10:31:00+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_Mv5eVsCd8Ni8Np/sources request: Array
+(
+    [source] => src_1MBFTGGar99af23DQFvytT2d
+)
+
+====End Log====
+
+
+2022-12-04T10:31:01+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MBFTGGar99af23DQFvytT2d request: Array
+(
+)
+
+====End Log====
+
+
+2022-12-04T10:31:01+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_Mv5eVsCd8Ni8Np request: Array
+(
+    [email] => sonyvaioweb@gmail.cocm
+    [description] => Name: Uesr One, Username: uesr.one
+    [name] => Uesr One
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-04T10:31:02+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 51 for the amount of 15
+====End Log====
+
+
+2022-12-04T10:31:02+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MBFTGGar99af23DQFvytT2d
+    [amount] => 15
+    [currency] => vnd
+    [description] => Demo - Order 51
+    [metadata] => Array
+        (
+            [customer_name] => Uesr One
+            [customer_email] => sonyvaioweb@gmail.cocm
+            [order_id] => 51
+            [site_url] => http://localhost
+            [save_payment_method] => true
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [setup_future_usage] => off_session
+    [customer] => cus_Mv5eVsCd8Ni8Np
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-04T10:31:04+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MBFTGGar99af23DQFvytT2d
+====End Log====
+
+
+2022-12-04T10:31:05+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 51 for the amount of 15
+====End Log====
+
+
+2022-12-04T10:31:05+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MBFTGGar99af23DQFvytT2d
+    [amount] => 15
+    [currency] => vnd
+    [description] => Demo - Order 51
+    [metadata] => Array
+        (
+            [customer_name] => Uesr One
+            [customer_email] => sonyvaioweb@gmail.cocm
+            [order_id] => 51
+            [site_url] => http://localhost
+            [save_payment_method] => true
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [setup_future_usage] => off_session
+    [customer] => cus_Mv5eVsCd8Ni8Np
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-04T10:31:08+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MBFTGGar99af23DQFvytT2d
+====End Log====
+
+
+2022-12-04T10:31:09+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 51 for the amount of 15
+====End Log====
+
+
+2022-12-04T10:31:09+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MBFTGGar99af23DQFvytT2d
+    [amount] => 15
+    [currency] => vnd
+    [description] => Demo - Order 51
+    [metadata] => Array
+        (
+            [customer_name] => Uesr One
+            [customer_email] => sonyvaioweb@gmail.cocm
+            [order_id] => 51
+            [site_url] => http://localhost
+            [save_payment_method] => true
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [setup_future_usage] => off_session
+    [customer] => cus_Mv5eVsCd8Ni8Np
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-04T10:31:13+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MBFTGGar99af23DQFvytT2d
+====End Log====
+
+
+2022-12-04T10:31:14+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 51 for the amount of 15
+====End Log====
+
+
+2022-12-04T10:31:14+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MBFTGGar99af23DQFvytT2d
+    [amount] => 15
+    [currency] => vnd
+    [description] => Demo - Order 51
+    [metadata] => Array
+        (
+            [customer_name] => Uesr One
+            [customer_email] => sonyvaioweb@gmail.cocm
+            [order_id] => 51
+            [site_url] => http://localhost
+            [save_payment_method] => true
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [setup_future_usage] => off_session
+    [customer] => cus_Mv5eVsCd8Ni8Np
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-04T10:31:14+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MBFTGGar99af23DQFvytT2d
+====End Log====
+
+
+2022-12-04T10:31:15+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 51 for the amount of 15
+====End Log====
+
+
+2022-12-04T10:31:15+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MBFTGGar99af23DQFvytT2d
+    [amount] => 15
+    [currency] => vnd
+    [description] => Demo - Order 51
+    [metadata] => Array
+        (
+            [customer_name] => Uesr One
+            [customer_email] => sonyvaioweb@gmail.cocm
+            [order_id] => 51
+            [site_url] => http://localhost
+            [save_payment_method] => true
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [setup_future_usage] => off_session
+    [customer] => cus_Mv5eVsCd8Ni8Np
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-04T10:31:15+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [code] => amount_too_small
+            [doc_url] => https://stripe.com/docs/error-codes/amount-too-small
+            [message] => Amount must convert to at least 50 JPY. ₫15 converts to approximately ¥0.
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_wa4GRRfSEb0o7Q?t=1670149875
+            [type] => invalid_request_error
+        )
+
+)
+
+====End Log====
+
+
+2022-12-04T10:31:16+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_Mv5eVsCd8Ni8Np/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-12-04T10:31:16+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_Mv5eVsCd8Ni8Np request: Array
+(
+    [default_source] => src_1MBFTGGar99af23DQFvytT2d
+)
+
+====End Log====
+
+
+2022-12-04T10:31:18+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_Mv5eVsCd8Ni8Np/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-12-04T10:38:57+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers request: Array
+(
+    [email] => sonyvaioweb@gmail.com
+    [description] => Name: Tran Tuan, Username: tran.tuan
+    [name] => Tran Tuan
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-04T10:38:57+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_Mv5mNXTIfCm8Mm/sources request: Array
+(
+    [source] => src_1MBFb2Gar99af23D8wcC3DKK
+)
+
+====End Log====
+
+
+2022-12-04T10:38:58+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+setup_intents request: Array
+(
+    [customer] => cus_Mv5mNXTIfCm8Mm
+    [confirm] => true
+    [payment_method] => src_1MBFb2Gar99af23D8wcC3DKK
+)
+
+====End Log====
+
+
+2022-12-04T10:38:59+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MBFb2Gar99af23D8wcC3DKK
+====End Log====
+
+
+2022-12-04T10:39:00+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MBFb2Gar99af23D8wcC3DKK
+====End Log====
+
+
+2022-12-04T10:39:00+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_Mv5mNXTIfCm8Mm request: Array
+(
+    [default_source] => src_1MBFb2Gar99af23D8wcC3DKK
+)
+
+====End Log====
+
+
+2022-12-04T10:39:21+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI/sources/src_1MBFTGGar99af23DQFvytT2d request: Array
+(
+)
+
+====End Log====
+
+

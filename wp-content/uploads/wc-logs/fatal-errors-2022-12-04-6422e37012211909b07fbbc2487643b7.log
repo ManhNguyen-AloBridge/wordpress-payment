@@ -623,3 +623,384 @@ Stack trace:
 #24 {main}
   thrown in /var/www/wordpress/wp-content/themes/storefront-child/functions.php on line 93
 
+2022-12-04T06:24:46+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/wordpress//vendor/stripe-php/init.php' (include_path='.:/usr/local/lib/php') in /var/www/wordpress/wp-content/themes/storefront-child/functions.php:122
+Stack trace:
+#0 /var/www/wordpress/wp-settings.php(585): include()
+#1 /var/www/wordpress/wp-config.php(117): require_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-load.php(50): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-blog-header.php(13): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-content/themes/storefront-child/functions.php on line 122
+
+2022-12-04T06:24:46+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/wordpress//vendor/stripe-php/init.php' (include_path='.:/usr/local/lib/php') in /var/www/wordpress/wp-content/themes/storefront-child/functions.php:122
+Stack trace:
+#0 /var/www/wordpress/wp-settings.php(585): include()
+#1 /var/www/wordpress/wp-config.php(117): require_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-load.php(50): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-blog-header.php(13): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-content/themes/storefront-child/functions.php on line 122
+
+2022-12-04T06:24:53+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/wordpress//vendor/stripe-php/init.php' (include_path='.:/usr/local/lib/php') in /var/www/wordpress/wp-content/themes/storefront-child/functions.php:122
+Stack trace:
+#0 /var/www/wordpress/wp-settings.php(585): include()
+#1 /var/www/wordpress/wp-config.php(117): require_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-load.php(50): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-blog-header.php(13): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-content/themes/storefront-child/functions.php on line 122
+
+2022-12-04T06:24:53+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/wordpress//vendor/stripe-php/init.php' (include_path='.:/usr/local/lib/php') in /var/www/wordpress/wp-content/themes/storefront-child/functions.php:122
+Stack trace:
+#0 /var/www/wordpress/wp-settings.php(585): include()
+#1 /var/www/wordpress/wp-config.php(117): require_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-load.php(50): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-blog-header.php(13): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-content/themes/storefront-child/functions.php on line 122
+
+2022-12-04T06:25:16+00:00 CRITICAL Uncaught Error: Class "Stripe\StripeClient" not found in /var/www/wordpress/wp-content/themes/storefront-child/functions.php:127
+Stack trace:
+#0 /var/www/wordpress/wp-content/themes/storefront-child/woocommerce/checkout/form-checkout.php(66): a()
+#1 /var/www/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#3 /var/www/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#4 /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#5 /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#6 /var/www/wordpress/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#7 [internal function]: do_shortcode_tag(Array)
+#8 /var/www/wordpress/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#9 /var/www/wordpress/wp-includes/class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#10 /var/www/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#11 /var/www/wordpress/wp-includes/post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#12 /var/www/wordpress/wp-content/themes/storefront/inc/storefront-template-functions.php(352): the_content()
+#13 /var/www/wordpress/wp-includes/class-wp-hook.php(308): storefront_page_content('')
+#14 /var/www/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#16 /var/www/wordpress/wp-content/themes/storefront/content-page.php(18): do_action('storefront_page')
+#17 /var/www/wordpress/wp-includes/template.php(785): require('/var/www/wordpr...')
+#18 /var/www/wordpress/wp-includes/template.php(718): load_template('/var/www/wordpr...', false, Array)
+#19 /var/www/wordpress/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#20 /var/www/wordpress/wp-content/themes/storefront/page.php(24): get_template_part('content', 'page')
+#21 /var/www/wordpress/wp-includes/template-loader.php(106): include('/var/www/wordpr...')
+#22 /var/www/wordpress/wp-blog-header.php(19): require_once('/var/www/wordpr...')
+#23 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#24 {main}
+  thrown in /var/www/wordpress/wp-content/themes/storefront-child/functions.php on line 127
+
+2022-12-04T06:25:21+00:00 CRITICAL Uncaught Error: Class "Stripe\StripeClient" not found in /var/www/wordpress/wp-content/themes/storefront-child/functions.php:127
+Stack trace:
+#0 /var/www/wordpress/wp-content/themes/storefront-child/woocommerce/checkout/form-checkout.php(66): a()
+#1 /var/www/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#3 /var/www/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#4 /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#5 /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#6 /var/www/wordpress/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#7 [internal function]: do_shortcode_tag(Array)
+#8 /var/www/wordpress/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#9 /var/www/wordpress/wp-includes/class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#10 /var/www/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#11 /var/www/wordpress/wp-includes/post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#12 /var/www/wordpress/wp-content/themes/storefront/inc/storefront-template-functions.php(352): the_content()
+#13 /var/www/wordpress/wp-includes/class-wp-hook.php(308): storefront_page_content('')
+#14 /var/www/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#16 /var/www/wordpress/wp-content/themes/storefront/content-page.php(18): do_action('storefront_page')
+#17 /var/www/wordpress/wp-includes/template.php(785): require('/var/www/wordpr...')
+#18 /var/www/wordpress/wp-includes/template.php(718): load_template('/var/www/wordpr...', false, Array)
+#19 /var/www/wordpress/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#20 /var/www/wordpress/wp-content/themes/storefront/page.php(24): get_template_part('content', 'page')
+#21 /var/www/wordpress/wp-includes/template-loader.php(106): include('/var/www/wordpr...')
+#22 /var/www/wordpress/wp-blog-header.php(19): require_once('/var/www/wordpr...')
+#23 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#24 {main}
+  thrown in /var/www/wordpress/wp-content/themes/storefront-child/functions.php on line 127
+
+2022-12-04T06:25:43+00:00 CRITICAL Uncaught Error: Class "Stripe\StripeClient" not found in /var/www/wordpress/wp-content/themes/storefront-child/functions.php:127
+Stack trace:
+#0 /var/www/wordpress/wp-content/themes/storefront-child/woocommerce/checkout/form-checkout.php(66): a()
+#1 /var/www/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#3 /var/www/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#4 /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#5 /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#6 /var/www/wordpress/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#7 [internal function]: do_shortcode_tag(Array)
+#8 /var/www/wordpress/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#9 /var/www/wordpress/wp-includes/class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#10 /var/www/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#11 /var/www/wordpress/wp-includes/post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#12 /var/www/wordpress/wp-content/themes/storefront/inc/storefront-template-functions.php(352): the_content()
+#13 /var/www/wordpress/wp-includes/class-wp-hook.php(308): storefront_page_content('')
+#14 /var/www/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#16 /var/www/wordpress/wp-content/themes/storefront/content-page.php(18): do_action('storefront_page')
+#17 /var/www/wordpress/wp-includes/template.php(785): require('/var/www/wordpr...')
+#18 /var/www/wordpress/wp-includes/template.php(718): load_template('/var/www/wordpr...', false, Array)
+#19 /var/www/wordpress/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#20 /var/www/wordpress/wp-content/themes/storefront/page.php(24): get_template_part('content', 'page')
+#21 /var/www/wordpress/wp-includes/template-loader.php(106): include('/var/www/wordpr...')
+#22 /var/www/wordpress/wp-blog-header.php(19): require_once('/var/www/wordpr...')
+#23 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#24 {main}
+  thrown in /var/www/wordpress/wp-content/themes/storefront-child/functions.php on line 127
+
+2022-12-04T06:25:55+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/wordpress/vendor/stripe-php/init.php' (include_path='.:/usr/local/lib/php') in /var/www/wordpress/wp-content/themes/storefront-child/functions.php:122
+Stack trace:
+#0 /var/www/wordpress/wp-settings.php(585): include()
+#1 /var/www/wordpress/wp-config.php(117): require_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-load.php(50): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-blog-header.php(13): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-content/themes/storefront-child/functions.php on line 122
+
+2022-12-04T06:25:55+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/wordpress/vendor/stripe-php/init.php' (include_path='.:/usr/local/lib/php') in /var/www/wordpress/wp-content/themes/storefront-child/functions.php:122
+Stack trace:
+#0 /var/www/wordpress/wp-settings.php(585): include()
+#1 /var/www/wordpress/wp-config.php(117): require_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-load.php(50): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-blog-header.php(13): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-content/themes/storefront-child/functions.php on line 122
+
+2022-12-04T06:26:00+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/wordpress/vendor/stripe-php/init.php' (include_path='.:/usr/local/lib/php') in /var/www/wordpress/wp-content/themes/storefront-child/functions.php:122
+Stack trace:
+#0 /var/www/wordpress/wp-settings.php(585): include()
+#1 /var/www/wordpress/wp-config.php(117): require_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-load.php(50): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-blog-header.php(13): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-content/themes/storefront-child/functions.php on line 122
+
+2022-12-04T06:26:00+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/wordpress/vendor/stripe-php/init.php' (include_path='.:/usr/local/lib/php') in /var/www/wordpress/wp-content/themes/storefront-child/functions.php:122
+Stack trace:
+#0 /var/www/wordpress/wp-settings.php(585): include()
+#1 /var/www/wordpress/wp-config.php(117): require_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-load.php(50): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-blog-header.php(13): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-content/themes/storefront-child/functions.php on line 122
+
+2022-12-04T07:28:52+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/wordpress/vendor/stripe-php/init.php' (include_path='.:/usr/local/lib/php') in /var/www/wordpress/wp-content/themes/storefront-child/functions.php:122
+Stack trace:
+#0 /var/www/wordpress/wp-settings.php(585): include()
+#1 /var/www/wordpress/wp-config.php(117): require_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-load.php(50): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-blog-header.php(13): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-content/themes/storefront-child/functions.php on line 122
+
+2022-12-04T07:28:52+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/wordpress/vendor/stripe-php/init.php' (include_path='.:/usr/local/lib/php') in /var/www/wordpress/wp-content/themes/storefront-child/functions.php:122
+Stack trace:
+#0 /var/www/wordpress/wp-settings.php(585): include()
+#1 /var/www/wordpress/wp-config.php(117): require_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-load.php(50): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-blog-header.php(13): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-content/themes/storefront-child/functions.php on line 122
+
+2022-12-04T07:29:27+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/wordpress/vendor/stripe/stripe-php/init.php' (include_path='.:/usr/local/lib/php') in /var/www/wordpress/wp-content/themes/storefront-child/functions.php:122
+Stack trace:
+#0 /var/www/wordpress/wp-settings.php(585): include()
+#1 /var/www/wordpress/wp-config.php(117): require_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-load.php(50): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-blog-header.php(13): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-content/themes/storefront-child/functions.php on line 122
+
+2022-12-04T07:29:27+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/wordpress/vendor/stripe/stripe-php/init.php' (include_path='.:/usr/local/lib/php') in /var/www/wordpress/wp-content/themes/storefront-child/functions.php:122
+Stack trace:
+#0 /var/www/wordpress/wp-settings.php(585): include()
+#1 /var/www/wordpress/wp-config.php(117): require_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-load.php(50): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-blog-header.php(13): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-content/themes/storefront-child/functions.php on line 122
+
+2022-12-04T07:29:50+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/wordpress/vendor/stripe/stripe-php/init.php' (include_path='.:/usr/local/lib/php') in /var/www/wordpress/wp-content/themes/storefront-child/functions.php:122
+Stack trace:
+#0 /var/www/wordpress/wp-settings.php(585): include()
+#1 /var/www/wordpress/wp-config.php(117): require_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-load.php(50): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#4 {main}
+  thrown in /var/www/wordpress/wp-content/themes/storefront-child/functions.php on line 122
+
+2022-12-04T07:31:50+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/wordpress/vendor/stripe/stripe-php/init.php' (include_path='.:/usr/local/lib/php') in /var/www/wordpress/wp-content/themes/storefront-child/functions.php:122
+Stack trace:
+#0 /var/www/wordpress/wp-settings.php(585): include()
+#1 /var/www/wordpress/wp-config.php(117): require_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-load.php(50): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#4 {main}
+  thrown in /var/www/wordpress/wp-content/themes/storefront-child/functions.php on line 122
+
+2022-12-04T07:33:50+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/wordpress/vendor/stripe/stripe-php/init.php' (include_path='.:/usr/local/lib/php') in /var/www/wordpress/wp-content/themes/storefront-child/functions.php:122
+Stack trace:
+#0 /var/www/wordpress/wp-settings.php(585): include()
+#1 /var/www/wordpress/wp-config.php(117): require_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-load.php(50): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#4 {main}
+  thrown in /var/www/wordpress/wp-content/themes/storefront-child/functions.php on line 122
+
+2022-12-04T07:34:38+00:00 CRITICAL Uncaught Error: Class "Stripe\StripeClient" not found in /var/www/wordpress/wp-content/themes/storefront-child/functions.php:127
+Stack trace:
+#0 /var/www/wordpress/wp-content/themes/storefront-child/woocommerce/checkout/form-checkout.php(66): a()
+#1 /var/www/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#3 /var/www/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#4 /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#5 /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#6 /var/www/wordpress/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#7 [internal function]: do_shortcode_tag(Array)
+#8 /var/www/wordpress/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#9 /var/www/wordpress/wp-includes/class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#10 /var/www/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#11 /var/www/wordpress/wp-includes/post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#12 /var/www/wordpress/wp-content/themes/storefront/inc/storefront-template-functions.php(352): the_content()
+#13 /var/www/wordpress/wp-includes/class-wp-hook.php(308): storefront_page_content('')
+#14 /var/www/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#16 /var/www/wordpress/wp-content/themes/storefront/content-page.php(18): do_action('storefront_page')
+#17 /var/www/wordpress/wp-includes/template.php(785): require('/var/www/wordpr...')
+#18 /var/www/wordpress/wp-includes/template.php(718): load_template('/var/www/wordpr...', false, Array)
+#19 /var/www/wordpress/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#20 /var/www/wordpress/wp-content/themes/storefront/page.php(24): get_template_part('content', 'page')
+#21 /var/www/wordpress/wp-includes/template-loader.php(106): include('/var/www/wordpr...')
+#22 /var/www/wordpress/wp-blog-header.php(19): require_once('/var/www/wordpr...')
+#23 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#24 {main}
+  thrown in /var/www/wordpress/wp-content/themes/storefront-child/functions.php on line 127
+
+2022-12-04T07:34:51+00:00 CRITICAL Uncaught Error: Class "Stripe\StripeClient" not found in /var/www/wordpress/wp-content/themes/storefront-child/functions.php:127
+Stack trace:
+#0 /var/www/wordpress/wp-content/themes/storefront-child/woocommerce/checkout/form-checkout.php(66): a()
+#1 /var/www/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#3 /var/www/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#4 /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#5 /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#6 /var/www/wordpress/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#7 [internal function]: do_shortcode_tag(Array)
+#8 /var/www/wordpress/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#9 /var/www/wordpress/wp-includes/class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#10 /var/www/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#11 /var/www/wordpress/wp-includes/post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#12 /var/www/wordpress/wp-content/themes/storefront/inc/storefront-template-functions.php(352): the_content()
+#13 /var/www/wordpress/wp-includes/class-wp-hook.php(308): storefront_page_content('')
+#14 /var/www/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#16 /var/www/wordpress/wp-content/themes/storefront/content-page.php(18): do_action('storefront_page')
+#17 /var/www/wordpress/wp-includes/template.php(785): require('/var/www/wordpr...')
+#18 /var/www/wordpress/wp-includes/template.php(718): load_template('/var/www/wordpr...', false, Array)
+#19 /var/www/wordpress/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#20 /var/www/wordpress/wp-content/themes/storefront/page.php(24): get_template_part('content', 'page')
+#21 /var/www/wordpress/wp-includes/template-loader.php(106): include('/var/www/wordpr...')
+#22 /var/www/wordpress/wp-blog-header.php(19): require_once('/var/www/wordpr...')
+#23 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#24 {main}
+  thrown in /var/www/wordpress/wp-content/themes/storefront-child/functions.php on line 127
+
+2022-12-04T07:34:57+00:00 CRITICAL Uncaught Error: Class "Stripe\StripeClient" not found in /var/www/wordpress/wp-content/themes/storefront-child/functions.php:127
+Stack trace:
+#0 /var/www/wordpress/wp-content/themes/storefront-child/woocommerce/checkout/form-checkout.php(66): a()
+#1 /var/www/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#3 /var/www/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#4 /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#5 /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#6 /var/www/wordpress/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#7 [internal function]: do_shortcode_tag(Array)
+#8 /var/www/wordpress/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#9 /var/www/wordpress/wp-includes/class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#10 /var/www/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#11 /var/www/wordpress/wp-includes/post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#12 /var/www/wordpress/wp-content/themes/storefront/inc/storefront-template-functions.php(352): the_content()
+#13 /var/www/wordpress/wp-includes/class-wp-hook.php(308): storefront_page_content('')
+#14 /var/www/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#16 /var/www/wordpress/wp-content/themes/storefront/content-page.php(18): do_action('storefront_page')
+#17 /var/www/wordpress/wp-includes/template.php(785): require('/var/www/wordpr...')
+#18 /var/www/wordpress/wp-includes/template.php(718): load_template('/var/www/wordpr...', false, Array)
+#19 /var/www/wordpress/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#20 /var/www/wordpress/wp-content/themes/storefront/page.php(24): get_template_part('content', 'page')
+#21 /var/www/wordpress/wp-includes/template-loader.php(106): include('/var/www/wordpr...')
+#22 /var/www/wordpress/wp-blog-header.php(19): require_once('/var/www/wordpr...')
+#23 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#24 {main}
+  thrown in /var/www/wordpress/wp-content/themes/storefront-child/functions.php on line 127
+
+2022-12-04T09:54:00+00:00 CRITICAL Uncaught TypeError: get_card_by_customer_id(): Argument #1 ($customerId) must be of type string, array given, called in /var/www/wordpress/wp-content/themes/storefront-child/functions.php on line 145 and defined in /var/www/wordpress/wp-content/themes/storefront-child/functions.php:151
+Stack trace:
+#0 /var/www/wordpress/wp-content/themes/storefront-child/functions.php(145): get_card_by_customer_id(Array)
+#1 /var/www/wordpress/wp-content/themes/storefront-child/woocommerce/checkout/form-checkout.php(66): a()
+#2 /var/www/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#4 /var/www/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#5 /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#6 /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#7 /var/www/wordpress/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#8 [internal function]: do_shortcode_tag(Array)
+#9 /var/www/wordpress/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#10 /var/www/wordpress/wp-includes/class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#11 /var/www/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#12 /var/www/wordpress/wp-includes/post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#13 /var/www/wordpress/wp-content/themes/storefront/inc/storefront-template-functions.php(352): the_content()
+#14 /var/www/wordpress/wp-includes/class-wp-hook.php(308): storefront_page_content('')
+#15 /var/www/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#16 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#17 /var/www/wordpress/wp-content/themes/storefront/content-page.php(18): do_action('storefront_page')
+#18 /var/www/wordpress/wp-includes/template.php(785): require('/var/www/wordpr...')
+#19 /var/www/wordpress/wp-includes/template.php(718): load_template('/var/www/wordpr...', false, Array)
+#20 /var/www/wordpress/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#21 /var/www/wordpress/wp-content/themes/storefront/page.php(24): get_template_part('content', 'page')
+#22 /var/www/wordpress/wp-includes/template-loader.php(106): include('/var/www/wordpr...')
+#23 /var/www/wordpress/wp-blog-header.php(19): require_once('/var/www/wordpr...')
+#24 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#25 {main}
+  thrown in /var/www/wordpress/wp-content/themes/storefront-child/functions.php on line 151
+
+2022-12-04T09:54:11+00:00 CRITICAL Uncaught TypeError: get_card_by_customer_id(): Argument #1 ($customerId) must be of type string, array given, called in /var/www/wordpress/wp-content/themes/storefront-child/functions.php on line 145 and defined in /var/www/wordpress/wp-content/themes/storefront-child/functions.php:151
+Stack trace:
+#0 /var/www/wordpress/wp-content/themes/storefront-child/functions.php(145): get_card_by_customer_id(Array)
+#1 /var/www/wordpress/wp-content/themes/storefront-child/woocommerce/checkout/form-checkout.php(66): a()
+#2 /var/www/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#4 /var/www/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#5 /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#6 /var/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#7 /var/www/wordpress/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#8 [internal function]: do_shortcode_tag(Array)
+#9 /var/www/wordpress/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#10 /var/www/wordpress/wp-includes/class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#11 /var/www/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#12 /var/www/wordpress/wp-includes/post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#13 /var/www/wordpress/wp-content/themes/storefront/inc/storefront-template-functions.php(352): the_content()
+#14 /var/www/wordpress/wp-includes/class-wp-hook.php(308): storefront_page_content('')
+#15 /var/www/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#16 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#17 /var/www/wordpress/wp-content/themes/storefront/content-page.php(18): do_action('storefront_page')
+#18 /var/www/wordpress/wp-includes/template.php(785): require('/var/www/wordpr...')
+#19 /var/www/wordpress/wp-includes/template.php(718): load_template('/var/www/wordpr...', false, Array)
+#20 /var/www/wordpress/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#21 /var/www/wordpress/wp-content/themes/storefront/page.php(24): get_template_part('content', 'page')
+#22 /var/www/wordpress/wp-includes/template-loader.php(106): include('/var/www/wordpr...')
+#23 /var/www/wordpress/wp-blog-header.php(19): require_once('/var/www/wordpr...')
+#24 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#25 {main}
+  thrown in /var/www/wordpress/wp-content/themes/storefront-child/functions.php on line 151
+

@@ -38,10 +38,12 @@ define( 'DB_CHARSET', 'utf8' );
 define( 'DB_COLLATE', '' );
 
 // Stripe public key
-define('PUBLISHABLE_KEY','pk_test_51KcMRVGar99af23DWnLWTAe9ykOu3QKCP6UE2cncqVDLnMW5LXER7YE7qdXa3bP6rsJqpBjubGU8sy18UcnNfyx700ZYoFgq7n');
+// define('PUBLISHABLE_KEY','pk_test_51KcMRVGar99af23DWnLWTAe9ykOu3QKCP6UE2cncqVDLnMW5LXER7YE7qdXa3bP6rsJqpBjubGU8sy18UcnNfyx700ZYoFgq7n');
+define('PUBLISHABLE_KEY','pk_test_51M9L1TAguxiPvYxjsmddqPaC97DxpMh4neE3p2WMhfDNM7hpvAEbhWvkRPjkuCbBdpLbtFDu06RgqV0Zs8PdmL7600p9XTlvjq');
 
 // Stripe private key
-define('SECRET_KEY','sk_test_51KcMRVGar99af23DyDHoDGnvgA8UB0ermXbylJvv6c4PvaN3w4gSsT6PccJvVEiIODdbVBae5xNPrIjlmiDsPRvV009zjTmNtd');
+// define('SECRET_KEY','sk_test_51KcMRVGar99af23DyDHoDGnvgA8UB0ermXbylJvv6c4PvaN3w4gSsT6PccJvVEiIODdbVBae5xNPrIjlmiDsPRvV009zjTmNtd');
+define('SECRET_KEY','sk_test_51M9L1TAguxiPvYxjRBIdHPWtuxwNSl9ldWVRBP7hHbTiooeGmtjvudXE7HvS5SLK0ibj34bnoaExz6JS65JoEMvy00kNqPJy9E');
 
 // Count price can select in checkout page
 define('COUNT_PRODUCT_SELECT', 10);

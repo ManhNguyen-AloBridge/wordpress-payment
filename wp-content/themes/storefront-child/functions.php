@@ -105,14 +105,56 @@ function get_list_price_non_subscription(array $products, array $array = []): ar
     return $array;
 }
 
-function get_customer_id_by_user_email(){
+function get_customer_id_by_user_email()
+{
     global $wpdb;
     $email = 'asd@gmail.com';
 
-    $customerId = $wpdb->get_var( $wpdb->prepare( "
+    $customerId = $wpdb->get_var($wpdb->prepare("
         SELECT customer_id FROM {$wpdb->prefix}wc_customer_lookup
         WHERE email = %s
-    ", $email ) );
+    ", $email));
 
     return $customerId;
+}
+
+
+// var_dump(ABSPATH . 'vendor/stripe-php/init.php');
+require_once ABSPATH . 'vendor/stripe-php/init.php';
+require_once ABSPATH . 'vendor/autoload.php';
+
+
+function get_list_customer_id()
+{
+    $stripe = new \Stripe\StripeClient(SECRET_KEY);
+
+    $listCustomer = $stripe->customers->all();
+    $listCustomerId = [];
+
+    foreach ($listCustomer as $customer) {
+        if ($customer->email) {
+            // var_dump($customer);
+            echo '<br/>';
+            // var_dump($customer->name);
+            echo '<br/>';
+            array_push($listCustomerId, $customer->id);
+        }
+    }
+
+    var_dump($listCustomerId);
+    // get_card_by_customer_id($listCustomerId[1]);
+
+}
+
+
+function get_card_by_customer_id(string $customerId)
+{
+    $stripe = new \Stripe\StripeClient(SECRET_KEY);
+
+    $listCard = $stripe->customers->allSources(
+        $customerId,
+        ['object' => 'card']
+    );
+
+    var_dump($listCard);
 }
